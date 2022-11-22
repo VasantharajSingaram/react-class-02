@@ -87,8 +87,8 @@ function Welcome({pic, name, para}) {
   <section>
      
 <Container>
-<Row>
-  <Col>
+<Row>1of5
+  <Col lg={4}>1of1
 
 
  <img className= "img-1" src={pic} alt={name}></img>
@@ -97,6 +97,7 @@ function Welcome({pic, name, para}) {
   
 
   </Col>
+
   </Row>
   </Container>
  </section>
